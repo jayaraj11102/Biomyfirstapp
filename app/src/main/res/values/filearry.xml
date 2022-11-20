@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinnerItems">
+        <item>TamilNadu</item>
+        <item>Kerala</item>
+        <item>Karnataka</item>
+        <item>AndhraPradesh</item>
+    </string-array>
+</resources>
