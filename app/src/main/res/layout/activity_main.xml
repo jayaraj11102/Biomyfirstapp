@@ -21,17 +21,17 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
             android:text="Name"
-            android:textSize="20dp"
+            android:textSize="25dp"
             android:textStyle="bold" />
 
 
         <EditText
             android:id="@+id/e11"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.5"
-            android:inputType="textPersonName"
-            />
+            android:hint="enter your name"
+            android:layout_height="48dp"
+            android:layout_weight="0.2"
+            android:inputType="textPersonName" />
 
     </LinearLayout>
 
@@ -48,14 +48,15 @@
             android:layout_weight="0.5"
             android:text="Password"
 
-            android:textSize="20dp"
+            android:textSize="24dp"
             android:textStyle="bold" />
 
         <EditText
             android:id="@+id/e12"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.5"
+            android:hint="password"
+            android:layout_height="48dp"
+            android:layout_weight="0.2"
             android:inputType="textPassword" />
 
     </LinearLayout>
@@ -72,15 +73,16 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
             android:text="Address"
-            android:textSize="20dp"
+            android:textSize="25dp"
             android:textStyle="bold" />
 
 
         <EditText
             android:id="@+id/e13"
+            android:hint="enter address"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.5"
+            android:layout_height="48dp"
+            android:layout_weight="0.2"
             android:inputType="textPersonName" />
 
     </LinearLayout>
@@ -103,7 +105,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Gender"
-                android:textSize="20dp"
+                android:textSize="25dp"
                 android:textStyle="bold" />
 
         </LinearLayout>
@@ -113,6 +115,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:layout_weight="0.5"
+            android:padding="4dp"
             android:orientation="vertical">
             <RadioGroup
                 android:layout_width="wrap_content"
@@ -122,7 +125,7 @@
             <RadioButton
                 android:id="@+id/r2"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="48dp"
                 android:text="Male"
                 android:checked="true"
                 />
@@ -130,13 +133,13 @@
             <RadioButton
                 android:id="@+id/r3"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="48dp"
                 android:text="Female" />
 
             <RadioButton
                 android:id="@+id/r4"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="48dp"
                 android:text="Transgender" />
             </RadioGroup>
 
@@ -148,6 +151,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
+        android:padding="4dp"
         android:orientation="horizontal">
 
         <TextView
@@ -162,7 +166,7 @@
         <EditText
             android:id="@+id/e14"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
             android:layout_weight="0.5"
             android:inputType="textPersonName"
             android:hint="dd.mm.yyyy"/>
@@ -173,6 +177,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
+        android:padding="4dp"
         android:orientation="horizontal">
 
         <TextView
@@ -187,8 +192,9 @@
         <Spinner
             android:id="@+id/spinner"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
             android:drawSelectorOnTop="true"
+            android:padding="10dp"
             android:prompt="@string/States"
             android:entries="@array/spinnerItems"
             android:layout_weight="0.5" />
